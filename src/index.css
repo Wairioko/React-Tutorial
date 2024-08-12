@@ -42,8 +42,52 @@
 
 
 .content {
-  max-width: 600px;
+  max-width: auto;
   margin: 40px auto;
   padding: 20px;
 }
+
+.blog-preview{
+  padding: 10px 60px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  border-bottom: 1px solid #f2f2f2;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  align-items: left;
+  flex-direction: column;
+  font-size: large;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+ 
+}
+
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgb(185, 21, 185);
+}
+
+.blog-preview h2{
+  color: #f1356d;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+
+.delete-button{
+  background-color: #f1356d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover{
+  background-color: #e81e4d;
+  
+}
+
 }
